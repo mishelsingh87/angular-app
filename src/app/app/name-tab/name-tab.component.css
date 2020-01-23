@@ -1,0 +1,15 @@
+.col1{
+    /* background-color: lightgrey; */
+    width: 30%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.name-tab{
+    background-color: lightblue;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 10px;
+}

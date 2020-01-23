@@ -1,0 +1,17 @@
+<mat-card class="emp-description" *ngIf="empDesc">
+    <mat-card-title>
+        <h3>Employee Details</h3>
+    </mat-card-title>
+    <mat-card-subtitle>
+        <h5>{{empDesc.name}}</h5>
+    </mat-card-subtitle>
+    <mat-card-content>
+        <mat-list >
+            <mat-list-item>ID : {{empDesc.id}}</mat-list-item>
+            <mat-divider ></mat-divider>
+            <mat-list-item>Company : {{empDesc.company}}</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item>Phone Number : {{empDesc.phone}}</mat-list-item>
+        </mat-list>
+    </mat-card-content>
+</mat-card>

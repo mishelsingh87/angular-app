@@ -1,0 +1,7 @@
+<div class="col1">
+    <div class="name-tab" *ngFor="let emp of empData" (click)="onSelectEmp(emp)">
+        <span>{{emp.name}}</span>
+    </div>
+</div>
+
+<app-emp-description [empDesc]="selectedEmp"></app-emp-description>
